@@ -55,8 +55,12 @@
 }
 
 .right{
-  padding: 100px 0px;
+  width: 60vw;
+  height: 100vh;
+  padding: 0px 0px;
   background-color: rgb(241, 241, 241);
+  display:flex;
+  align-items: center;
 }
 
 .right p{
@@ -98,8 +102,20 @@
 
 input:not(:placeholder-shown):not(:focus):invalid {
   border: 2px solid red;
+  border-radius: 2px;
 }
 
 button {
   margin:15px 30px;
+  padding:15px 35px;
+  background-color: rgb(49, 109, 146);
+  color:white;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 10px;
+  border-width: 0;
+}
+
+button:hover {
+  cursor:pointer;
 }
